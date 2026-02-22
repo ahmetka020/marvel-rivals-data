@@ -1,8 +1,1 @@
-{
-  "version": 3,
-  "updatedAt": "2026-02-22",
-  "files": {
-    "heroes": { "path": "heroes.json", "sha256": "..." },
-    "meta":   { "path": "meta.json",   "sha256": "..." }
-  }
-}
+{}
