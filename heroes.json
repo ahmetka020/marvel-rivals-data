@@ -1,0 +1,132 @@
+[
+  {
+    "id": "iron_man",
+    "name": "Iron Man",
+    "role": "DPS",
+    "tags": ["ranged", "burst", "mobility"],
+    "skills": [
+      { "name": "Repulsor Blast", "description": "Mid-range burst damage projectile." },
+      { "name": "Flight Mode", "description": "Gain vertical mobility and reposition." },
+      { "name": "Unibeam", "description": "High damage beam ultimate." }
+    ],
+    "strongAgainst": ["scarlet_witch", "storm"],
+    "weakAgainst": ["doctor_strange", "spider_man"]
+  },
+  {
+    "id": "spider_man",
+    "name": "Spider-Man",
+    "role": "DPS",
+    "tags": ["melee", "mobility", "assassin"],
+    "skills": [
+      { "name": "Web Swing", "description": "High mobility swing ability." },
+      { "name": "Web Shot", "description": "Immobilize enemy briefly." },
+      { "name": "Spider Barrage", "description": "Close range burst combo." }
+    ],
+    "strongAgainst": ["iron_man", "rocket_raccoon"],
+    "weakAgainst": ["hulk", "thor"]
+  },
+  {
+    "id": "doctor_strange",
+    "name": "Doctor Strange",
+    "role": "Support",
+    "tags": ["shield", "control", "utility"],
+    "skills": [
+      { "name": "Mystic Shield", "description": "Deploy frontal protective shield." },
+      { "name": "Portal Shift", "description": "Teleport allies short distance." },
+      { "name": "Astral Lock", "description": "Crowd control ultimate." }
+    ],
+    "strongAgainst": ["iron_man", "scarlet_witch"],
+    "weakAgainst": ["spider_man"]
+  },
+  {
+    "id": "scarlet_witch",
+    "name": "Scarlet Witch",
+    "role": "DPS",
+    "tags": ["ranged", "chaos", "sustain"],
+    "skills": [
+      { "name": "Chaos Bolt", "description": "Sustained ranged damage." },
+      { "name": "Reality Warp", "description": "Area disruption ability." },
+      { "name": "Hex Storm", "description": "AoE ultimate burst." }
+    ],
+    "strongAgainst": ["hulk", "thor"],
+    "weakAgainst": ["iron_man", "doctor_strange"]
+  },
+  {
+    "id": "hulk",
+    "name": "Hulk",
+    "role": "Tank",
+    "tags": ["melee", "disrupt", "durable"],
+    "skills": [
+      { "name": "Smash Leap", "description": "Jump and slam the ground." },
+      { "name": "Rage Mode", "description": "Increase damage and durability." },
+      { "name": "Gamma Roar", "description": "Disrupt enemies nearby." }
+    ],
+    "strongAgainst": ["spider_man", "black_panther"],
+    "weakAgainst": ["scarlet_witch"]
+  },
+  {
+    "id": "thor",
+    "name": "Thor",
+    "role": "Tank",
+    "tags": ["melee", "control", "burst"],
+    "skills": [
+      { "name": "Hammer Throw", "description": "Ranged stun attack." },
+      { "name": "Lightning Strike", "description": "Area damage ability." },
+      { "name": "God of Thunder", "description": "Massive AoE ultimate." }
+    ],
+    "strongAgainst": ["spider_man", "storm"],
+    "weakAgainst": ["scarlet_witch"]
+  },
+  {
+    "id": "rocket_raccoon",
+    "name": "Rocket Raccoon",
+    "role": "DPS",
+    "tags": ["ranged", "utility", "poke"],
+    "skills": [
+      { "name": "Blaster Fire", "description": "Rapid ranged shots." },
+      { "name": "Deploy Turret", "description": "Place automated turret." },
+      { "name": "Heavy Artillery", "description": "High damage ultimate." }
+    ],
+    "strongAgainst": ["hulk"],
+    "weakAgainst": ["spider_man"]
+  },
+  {
+    "id": "black_panther",
+    "name": "Black Panther",
+    "role": "DPS",
+    "tags": ["melee", "assassin", "mobility"],
+    "skills": [
+      { "name": "Vibranium Claws", "description": "High melee burst." },
+      { "name": "Dash Strike", "description": "Quick engage ability." },
+      { "name": "Panther Frenzy", "description": "Ultimate combo chain." }
+    ],
+    "strongAgainst": ["rocket_raccoon"],
+    "weakAgainst": ["hulk"]
+  },
+  {
+    "id": "storm",
+    "name": "Storm",
+    "role": "Support",
+    "tags": ["ranged", "aoe", "control"],
+    "skills": [
+      { "name": "Wind Push", "description": "Knockback ability." },
+      { "name": "Rain Blessing", "description": "Heal over time." },
+      { "name": "Tempest Fury", "description": "AoE storm ultimate." }
+    ],
+    "strongAgainst": ["hulk"],
+    "weakAgainst": ["iron_man", "thor"]
+  },
+  {
+    "id": "loki",
+    "name": "Loki",
+    "role": "Support",
+    "tags": ["trickster", "control", "utility"],
+    "skills": [
+      { "name": "Illusion Clone", "description": "Create distraction clone." },
+      { "name": "Mind Trick", "description": "Disorient enemy briefly." },
+      { "name": "God of Mischief", "description": "Area chaos ultimate." }
+    ],
+    "strongAgainst": ["scarlet_witch"],
+    "weakAgainst": ["doctor_strange"]
+  }
+]
