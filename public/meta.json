@@ -1,1 +1,154 @@
-{}
+{
+  "metaVersion": "2026.02.27",
+  "patch": "1.0.8",
+  "updatedAt": "2026-02-27T00:00:00Z",
+  "regions": ["global"],
+  "rankBands": ["all", "bronze-silver", "gold-plat", "diamond+"],
+  "contexts": {
+    "modes": ["ranked", "quickplay", "tournament"],
+    "roles": ["tank", "damage", "support", "flex"],
+    "mapTypes": ["objective", "payload", "hybrid"]
+  },
+  "champions": [
+    {
+      "id": "iron_man",
+      "isMeta": true,
+      "globalTier": "S",
+      "globalScore": 93,
+      "metaTags": ["high_pickrate", "priority_pick"],
+      "whyMetaSummary": "High burst damage and mobility dominate ranked games.",
+      "lastVerifiedAt": "2026-02-27T00:00:00Z",
+      "metaByContext": [
+        {
+          "mode": "ranked",
+          "role": "damage",
+          "rankBand": "diamond+",
+          "mapType": "objective",
+          "tier": "S",
+          "score": 96,
+          "notes": [
+            "Hard to punish due to vertical mobility",
+            "Strong synergy with dive comps"
+          ],
+          "synergies": ["doctor_strange", "rocket_raccoon"],
+          "counters": ["hawkeye", "black_widow"],
+          "evidence": { "source": "community+stats", "confidence": 0.74 }
+        }
+      ]
+    },
+    {
+      "id": "doctor_strange",
+      "isMeta": true,
+      "globalTier": "S",
+      "globalScore": 91,
+      "metaTags": ["team_comp_core"],
+      "whyMetaSummary": "Shield control and team fight impact make him essential.",
+      "lastVerifiedAt": "2026-02-27T00:00:00Z",
+      "metaByContext": [
+        {
+          "mode": "ranked",
+          "role": "tank",
+          "rankBand": "all",
+          "mapType": "objective",
+          "tier": "S",
+          "score": 94,
+          "notes": [
+            "Strong frontline sustain",
+            "Enables coordinated pushes"
+          ],
+          "synergies": ["iron_man", "scarlet_witch"],
+          "counters": ["loki"],
+          "evidence": { "source": "community", "confidence": 0.69 }
+        }
+      ]
+    },
+    {
+      "id": "scarlet_witch",
+      "isMeta": true,
+      "globalTier": "A",
+      "globalScore": 86,
+      "metaTags": ["aoe_pressure"],
+      "whyMetaSummary": "Strong area denial and consistent damage output.",
+      "lastVerifiedAt": "2026-02-27T00:00:00Z",
+      "metaByContext": [
+        {
+          "mode": "quickplay",
+          "role": "damage",
+          "rankBand": "all",
+          "mapType": "payload",
+          "tier": "A",
+          "score": 85,
+          "notes": [
+            "Very effective in clustered fights",
+            "Less consistent in coordinated ranked"
+          ],
+          "synergies": ["doctor_strange"],
+          "counters": ["magneto"],
+          "evidence": { "source": "community", "confidence": 0.58 }
+        }
+      ]
+    },
+    {
+      "id": "rocket_raccoon",
+      "isMeta": true,
+      "globalTier": "A",
+      "globalScore": 84,
+      "metaTags": ["utility_support"],
+      "whyMetaSummary": "Strong utility and sustain in coordinated teams.",
+      "lastVerifiedAt": "2026-02-27T00:00:00Z",
+      "metaByContext": [
+        {
+          "mode": "ranked",
+          "role": "support",
+          "rankBand": "gold-plat",
+          "mapType": "hybrid",
+          "tier": "A",
+          "score": 87,
+          "notes": [
+            "Strong healing output",
+            "Good synergy with dive comps"
+          ],
+          "synergies": ["iron_man"],
+          "counters": ["punisher"],
+          "evidence": { "source": "community+stats", "confidence": 0.66 }
+        }
+      ]
+    },
+    {
+      "id": "loki",
+      "isMeta": false,
+      "globalTier": "B",
+      "globalScore": 71,
+      "metaTags": [],
+      "whyMetaSummary": "Situational pick; requires strong mechanics.",
+      "lastVerifiedAt": "2026-02-27T00:00:00Z",
+      "metaByContext": []
+    },
+    {
+      "id": "punisher",
+      "isMeta": true,
+      "globalTier": "A",
+      "globalScore": 83,
+      "metaTags": ["anti_support"],
+      "whyMetaSummary": "Strong against sustain-heavy comps.",
+      "lastVerifiedAt": "2026-02-27T00:00:00Z",
+      "metaByContext": [
+        {
+          "mode": "ranked",
+          "role": "damage",
+          "rankBand": "diamond+",
+          "mapType": "payload",
+          "tier": "A",
+          "score": 88,
+          "notes": [
+            "High DPS melts shields",
+            "Counters support-heavy comps"
+          ],
+          "synergies": ["magneto"],
+          "counters": ["iron_man"],
+          "evidence": { "source": "stats", "confidence": 0.71 }
+        }
+      ]
+    }
+  ]
+}
